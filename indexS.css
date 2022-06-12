@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("cinza.jpg");
+    background-size: cover ;
+    padding: 0%;
+    
+}
+.cabecalho{
+    background-color:rgb(37, 37, 37);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 10px;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+}
+.cabecalho_pesquisa{
+   gap: 10px;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+}
+
+.cabecalho_link{
+    color: rgb(209, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+
+    
+}
+.cabecalho_lupa{
+    width: 25px;
+    height: 25px;
+    background-color: rgb(209, 0, 0);
+    border-radius: 15px;
+    padding: 10px;  
+    
+}
+.cabecalho_busca{
+    padding: 10px;
+    flex-direction: center;
+    border-radius: 20px;
+    padding-right: 100px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 0;
+    
+}
+a:link, a:visited{
+    background-color: rgb(209, 0, 0);
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 30px;
+    
+}
+a:hover,a:active{
+    background-color: red;
+}
+p{
+    font-size: 30px;
+}
